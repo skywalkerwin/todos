@@ -4,6 +4,7 @@ import "./index.css";
 // import { connect } from "react-redux";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 // class List extends React.Component {
 //   render() {
@@ -15,8 +16,9 @@ import * as serviceWorker from "./serviceWorker";
 //     );
 //   }
 // }
-
+// ReactDOM.render(<App />, document.getElementById("headertabs"));
 ReactDOM.render(<App />, document.getElementById("root"));
+// ReactDOM.render(<App />, document.getElementById("root2"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
